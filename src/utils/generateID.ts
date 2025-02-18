@@ -8,3 +8,5 @@ export const generate = () => {
   }
   return result;
 };
+
+export const getPaths = (id: string) => {};
