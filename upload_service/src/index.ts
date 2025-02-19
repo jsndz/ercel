@@ -2,7 +2,6 @@ import express from "express";
 import path from "path";
 import cors from "cors";
 import simpleGit from "simple-git";
-import { createClient } from "redis";
 import { Redis } from "ioredis";
 
 import { generate } from "./utils/generateID";
